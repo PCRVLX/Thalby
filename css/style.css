@@ -2,6 +2,9 @@
  padding: 0;
     margin: 0;
 }
+*{
+    box-sizing: border-box;
+}
 header{
     background-color: white;
     padding: 7px 0;
@@ -16,6 +19,7 @@ header{
 .justify-between{
     justify-content: space-between;
 }
+
 
 .align-center{
     align-items: center;
@@ -279,48 +283,69 @@ header .logo{
     font-style: normal;
     font-weight: 400;
     color: #000000;
+    margin-bottom: 69px;
 
 }
 .circle-turquoise{
-    height: 70px;
-    width: 70px;
-    border-radius: 50%;
-    display: inline-block;
     background-color: #21F7EC;
+    border-radius: 35px;
+    width: 70px;
+    height: 70px;
+    margin-bottom: 26px;
 }
 .circle-dark_turquoise{
-    height: 70px;
-    width: 70px;
-    border-radius: 50%;
-    display: inline-block;
     background-color: #33D3BC;
+    border-radius: 35px;
+    width: 70px;
+    height: 70px;
+    margin-bottom: 26px;
 }
 .circle-blue{
-    height: 70px;
-    width: 70px;
-    border-radius: 50%;
-    display: inline-block;
     background-color: #18A5C6;
+    border-radius: 35px;
+    width: 70px;
+    height: 70px;
+    margin-bottom: 26px;
 }
 .circle-brown{
-    height: 70px;
-    width: 70px;
-    border-radius: 50%;
-    display: inline-block;
     background-color: #D38F62;
+    border-radius: 35px;
+    width: 70px;
+    height: 70px;
+    margin-bottom: 26px;
 }
 .circle-red{
-    height: 70px;
-    width: 70px;
-    border-radius: 50%;
-    display: inline-block;
     background-color: #F94C43;
+    border-radius: 35px;
+    width: 70px;
+    height: 70px;
+    margin-bottom: 26px;
 }
 .circle-purple{
-    height: 70px;
-    width: 70px;
-    border-radius: 50%;
-    display: inline-block;
     background-color: #D399FF;
+    border-radius: 35px;
+    width: 70px;
+    height: 70px;
+    margin-bottom: 26px;
 }
+.size-circle{
+    width: 33.3%;
+    display: flex;
+    flex-direction: column;
+    padding: 0 70px;
+    margin-bottom: 111px;
+
+}
+.list{
+    max-width: 1088px;
+    flex-wrap: wrap;
+    margin: auto;
+}
+.guides .list p{
+    font: 30px/35px 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    color: #000000;
+}
+
 
