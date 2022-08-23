@@ -493,36 +493,48 @@ header .logo{
 }
 .low-list .about{
     max-width: 215px;
-    padding-left: 25px;
+    margin-right: 72px;
+}
+.low-list .contact{
+    max-width: 215px;
 }
 .low-list ul{
     list-style: none;
-
 }
-.low-list .about li a:first-of-type{
+.low-list .about li:first-of-type {
     margin-bottom: 36px;
-    line-height: 23px;
 }
-.low-list .about li a{
+.low-list .about li {
     margin-bottom: 12px;
+}
+.low-list .about li a {
     font: 14px/21px 'Roboto';
     font-style: normal;
     font-weight: 400;
     color: #FFFFFF;
     text-decoration: none;
 }
-.low-list .about li a:last-of-type{
+.low-list .about li:last-of-type{
     margin-bottom: 20px;
 }
-.low-list .contact li a:first-of-type{
+.low-list .contact li:first-of-type{
     margin-bottom: 36px;
     line-height: 23px;
 }
-.low-list .contact li a{
+.low-list .contact li{
     margin-bottom: 12px;
+}
+.low-list .contact li a{
     font: 14px/21px 'Roboto';
     font-style: normal;
     font-weight: 400;
     color: #FFFFFF;
     text-decoration: none;
+}
+.footer .copyright{
+    font: 14px/23px 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    text-align: center;
+    color: #FFFFFF;
 }
