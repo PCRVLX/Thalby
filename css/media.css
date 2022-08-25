@@ -1,11 +1,41 @@
 @media screen and (max-width: 992px) {
-.container{
-    padding: 0 15px;
+    .container {
+        padding: 0 15px;
+    }
+    .main_banner img{
+        position: absolute;
+        right: -111px;
+        top: 0;
+    }
+    .footer-container{
+        padding: 0 15px;
+    }
 }
+@media screen and (max-width: 884px){
+    .main_banner img{
+        position: relative;
+        right: 0;
+    }
+    .sellers .decor-card img{
+        max-width: 256px;
+    }
+
 }
-@media screen and (max-width: 767px){
-    .people .d-flex{
-        flex-direction: column;
+@media screen and (max-width: 768px){
+    .people .description {
+        max-width: 303px;
+    }
+    .description_thrd {
+        max-width: 303px;
+    }
+    .size-circle {
+       padding: 0;
+    }
+    .fascinating .item p span {
+        font-size: 17px;
+    }
+    .fascinating .item {
+        max-width: 220px;
     }
     .main_banner img{
         position: relative;
@@ -13,6 +43,14 @@
     }
     .main_banner h1{
         font: 58px/57px 'Roboto';
+    }
+    header .logo{
+        position: relative;
+        left: 0;
+        top: 3px;
+    }
+    .sellers .decor-card img{
+        max-width: 247px;
     }
 }
 @media screen and (max-width: 428px) {

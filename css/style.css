@@ -140,6 +140,13 @@ header .logo{
     padding-top: 76px;
     padding-bottom: 51px;
 }
+.culture .for_img{
+    max-width: 385px;
+}
+.culture .for_img img{
+    width: 100%;
+    display: block;
+}
 .culture .description_second{
     max-width: 513px;
     margin-right: 50px;
