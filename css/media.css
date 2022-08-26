@@ -11,16 +11,50 @@
         padding: 0 15px;
     }
 }
-@media screen and (max-width: 884px){
+@media screen and (max-width: 885px){
     .main_banner img{
         position: relative;
         right: 0;
     }
     .sellers .decor-card img{
-        max-width: 256px;
+        max-width: 314px;
+    }
+    .owl-nav .owl-next {
+        position: absolute;
+        top: 33%;
+        right: 10px;
+    }
+    .owl-nav .owl-prev {
+        position: absolute;
+        top: 33%;
+        left: 10px;
+    }
+    .fascinating .item {
+        max-width: 270px;
+    }
+    header .logo {
+        position: relative;
+        left: 0;
+        top: 4px;
     }
 
 }
+@media screen and (max-width: 834px){
+    .fascinating .item {
+        max-width: 250px;
+    }
+}
+@media screen and (max-width: 820px){
+    .fascinating .item {
+        max-width: 250px;
+    }
+}
+    @media screen and (max-width: 800px){
+        .fascinating .item {
+            max-width: 250px;
+        }
+    }
+
 @media screen and (max-width: 768px){
     .people .description {
         max-width: 303px;
@@ -50,7 +84,17 @@
         top: 3px;
     }
     .sellers .decor-card img{
-        max-width: 247px;
+        max-width: 314px;
+    }
+    .owl-nav .owl-next {
+        position: absolute;
+        top: 33%;
+        right: 8px;
+    }
+    .owl-nav .owl-prev {
+        position: absolute;
+        top: 33%;
+        left: 8px;
     }
 }
 @media screen and (max-width: 428px) {
@@ -63,7 +107,248 @@
         margin-left: 0;
         top: 0;
     }
+    .main_banner img{
+        width: 100%;
+        display: block;
+    }
+    .owl-nav .owl-prev {
+        left: 16px;
+    }
+    .owl-nav .owl-next {
+        right: 16px;
+    }
+    .description h2 {
+        font: 24px/4px 'Roboto';
+    }
+    .description p {
+        font: 13px/25px 'Roboto';
+    }
+    .description_thrd h2 {
+        font: 24px/4px 'Roboto';
+    }
+    .description_thrd p {
+        font: 13px/25px 'Roboto';
+    }
+    .description_second h2 {
+        font: 24px/4px 'Roboto';
+    }
+    .description_second p {
+        font: 13px/25px 'Roboto';
+    }
+    .guides .list p {
+        font: 700 20px / 30px Roboto;
+    }
+    .features p {
+        font: 35px/42px 'Roboto';
+    }
+    .guides {
+        padding: 90px 15px 0 15px;
+    }
+    .size-circle {
+        margin-bottom: 10px;
+    }
+    .guides h4 {
+        margin-top: 90px;
+    }
+    .fascinating .item img{
+        margin-top: -85px;
+        margin-bottom: 20px;
+    }
+
+    .fascinating .item h4{
+        font: 12px/23px'Roboto';
+        margin-right: 8px;
+    }
+    .fascinating .item p{
+        font: 16px/20px'Roboto';
+    }
+    .fascinating .item p span{
+        font-size: 14px;
+        line-height: 15px;
+    }
+    .form_section {
+        padding: 78px 15px 88px 15px;
+    }
+    .low-logo {
+        margin-right: 50px;
+    }
+    .footer .copyright {
+        margin-top: 24px;
+    }
+}
+@media screen and (max-width: 414px){
+    .fascinating .item h4 {
+        font: 11px / 23px Roboto;
+    }
+    .guides h4 {
+        font: 700 35px / 42px Roboto;
+    }
+    .features p {
+        font: 33px/42px 'Roboto';
+    }
+    .low-list .about {
+        margin-right: 50px;
+    }
+    .low-list .about li a {
+        font: 10px/21px 'Roboto';
+    }
+    .low-list .contact li a {
+        font: 10px/21px 'Roboto';
+    }
+}
+@media screen and (max-width: 393px){
+    .owl-nav .owl-prev::before {
+        font-size: 30px;
+    }
+    .owl-nav .owl-prev {
+        left: 13px;
+    }
+    .owl-nav .owl-next::before {
+        font-size: 30px;
+    }
+    .owl-nav .owl-next {
+        right: 13px;
+    }
+    .description_second h2 {
+        font: 24px/25px 'Roboto';
+    }
+    .guides .list p {
+        font: 700 17px / 30px Roboto;
+    }
+    .guides h4 {
+        font: 700 33px / 42px Roboto;
+    }
+    .fascinating .item h4 {
+        font: 8px / 18px Roboto;
+    }
+    .fascinating .item p {
+        font: 15px/18px'Roboto';
+    }
+    .low-list .about li a {
+        font: 9px/14px 'Roboto';
+    }
+
+    .low-list .about li:first-of-type {
+        margin-bottom: 20px;
+    }
+    .low-list .contact li a {
+        font: 9px/14px 'Roboto'
+    }
+    .low-list .contact li:first-of-type {
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 360px){
+    .sellers .decor-card img {
+        max-width: 200px;
+        margin: auto;
+    }
+    .owl-nav .owl-next:before {
+        font-size: 40px;
+    }
+    .owl-nav .owl-next {
+        right: 37px;
+        top: 28%;
+    }
+    .owl-nav .owl-prev:before {
+        font-size: 40px;
+    }
+    .owl-nav .owl-prev {
+        left: 37px;
+        top: 28%;
+    }
+    .description h2 {
+        font: 28px/31px 'Roboto';
+    }
+    .description_second h2 {
+        font: 28px/31px 'Roboto';
+    }
+    .description_thrd h2 {
+        font: 28px/31px 'Roboto';
+    }
+    .features p {
+        font: 29px/42px 'Roboto';
+    }
+    .guides .list p {
+        font: 700 16px / 30px Roboto;
+    }
+    .guides h4 {
+        font: 700 30px / 40px Roboto;
+        margin-top: 50px;
+    }
+    .fascinating .item h4 {
+        font: 9px / 21px Roboto;
+    }
+    .fascinating .item p {
+        font: 14px/20px'Roboto';
+    }
+    .low-list .about li a {
+        font: 8px/21px 'Roboto';
+    }
+    .low-list .contact li a {
+        font: 8px/21px 'Roboto';
+    }
+    .low-list .about li:first-of-type {
+        margin-bottom: 11px;
+    }
+    .low-list .about li {
+        margin-bottom: 0;
+    }
+    .low-list .contact li:first-of-type {
+        margin-bottom: 11px;
+    }
+    .low-list .contact li {
+        margin-bottom: 0;
+    }
+    .footer .copyright {
+        font: 8px/23px 'Roboto';
+    }
+
 }
 @media screen and (max-width: 320px) {
-
+    .owl-nav .owl-prev:before {
+        font-size: 30px;
+    }
+    .owl-nav .owl-next:before {
+        font-size: 30px;
+    }
+    .owl-nav .owl-prev {
+        left: 25px;
+        top: 25%;
+    }
+    .owl-nav .owl-next {
+        right: 25px;
+        top: 25%;
+    }
+    .features p {
+        font: 23px/42px 'Roboto';
+    }
+    .guides .list p {
+        font: 700 14px / 30px Roboto;
+    }
+    .guides h4 {
+        font: 700 26px / 40px Roboto;
+    }
+    .fascinating .item h4 {
+        font: 8px / 16px Roboto;
+    }
+    .m-block {
+        max-width: 123px;
+    }
+    .footer .low-logo img{
+        max-width: 100px;
+    }
+    .low-logo {
+        margin-right: 28px;
+    }
+    .low-list .about {
+        margin-right: 45px;
+    }
+    .low-list .about li a {
+        font: 8px/21px 'Roboto';
+    }
+    .low-list .contact li a {
+        font: 8px/21px 'Roboto';
+    }
 }

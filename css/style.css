@@ -173,10 +173,10 @@ header .logo{
     text-decoration-line: underline;
     color: #000000;
 }
-.description_second .for_img2{
+.culture .description_second .for_img{
     max-width: 385px;
 }
-.description_second .for_img2 img{
+.culture .description_second .for_img img{
     width: 100%;
     display: block;
 }
@@ -259,6 +259,8 @@ header .logo{
     font-style: normal;
     font-weight: 700;
     color: #000000;
+    max-width: 314px;
+    margin: auto;
 }
 .decor-card h4{
     margin-top: 20px;
@@ -526,7 +528,6 @@ header .logo{
 }
 .low-list .contact li:first-of-type{
     margin-bottom: 36px;
-    line-height: 23px;
 }
 .low-list .contact li{
     margin-bottom: 12px;
@@ -544,4 +545,29 @@ header .logo{
     font-weight: 400;
     text-align: center;
     color: #FFFFFF;
+}
+.owl-nav .owl-prev{
+    position: absolute;
+    top:35%;
+    left: -46px;
+
+}
+.owl-nav .owl-prev:before{
+    font-family: "Font Awesome 6 Free",sans-serif;
+    font-weight: 900;
+    content: "\f053";
+    font-size: 50px;
+    color: black;
+}
+.owl-nav .owl-next{
+    position: absolute;
+    top:35%;
+    right:-46px;
+}
+.owl-nav .owl-next:before{
+    font-family: "Font Awesome 6 Free", sans-serif;
+    font-weight: 900;
+    content: "\f054";
+    font-size: 50px;
+    color: black;
 }
