@@ -1,5 +1,22 @@
 $(document).ready(function(){
+    $( function() {
+        $( "#dialog" ).dialog({
+            width: 940,
+            autoOpen: false,
+            show: {
+                effect: "bounce",
+                duration: 1000
+            },
+            hide: {
+                effect: "drop",
+                duration: 1000
+            }
+        });
 
+        $( "#opener" ).on( "click", function() {
+            $( "#dialog" ).dialog( "open" );
+        });
+    } );
     $('.owl-carousel').owlCarousel({
         loop:true,
         margin:0,

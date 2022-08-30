@@ -571,3 +571,56 @@ header .logo{
     font-size: 50px;
     color: black;
 }
+
+.dialog_form{
+    max-width: 940px;
+    width: 100%;
+}
+.dialog_form .inner_form{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+.inner_form .input_field{
+    height: 68px;
+    margin-right: 10px;
+}
+.inner_form .first-wrap{
+    flex-grow: 1;
+}
+.first-wrap input{
+    border-right: 0;
+}
+.input_field input{
+    height: 100%;
+    display: block;
+    width: 100%;
+    color: black;
+    border: 1px solid #e5e5e5;
+    padding: 10px 32px;
+    font-size: 20px;
+}
+.input_field .second-wrap{
+    max-width: 200px;
+}
+.second-wrap .btn-search{
+    height: 100%;
+    width: 200px;
+    font: 20px/20px 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    color: black;
+    border: 0;
+    cursor: pointer;
+    background: #e9cb1e;
+    transition: all .2s ease-out,color .2s ease-out;
+    border-radius: 10px;
+}
+.ui-widget-header{
+    border: none;
+    background: #F0EFEB;
+}
+.ui-dialog .ui-dialog-content{
+    background: #F0EFEB;
+}
